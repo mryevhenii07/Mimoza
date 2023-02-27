@@ -22,7 +22,7 @@ const Shop:FC<IProductsPage> = ({products}) => {
 					<Image src={product.images[0]} alt={product.name} width={220} height={220}/>
                     <h2>{product.name}</h2>
                     <div>{product.price}</div>
-                    <button>Add to cart</button>
+                    <button>Add to cartt</button>
 				</Column>))
                 }
 
